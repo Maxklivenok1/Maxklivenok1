@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- connecting fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="about.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="header">
+        <!-- Container (width 1170px) -->
+        <div class="container">
+            <div class="header__inner">
+                <!-- Logo -->
+                <div class="logo">
+                    <img class="logo__icon" src="../images/design.png" alt="">
+                    <a class="logo__text" href="index.html">MaxDesign</a>
+                </div>
+                <!-- Navigation menu -->
+                <nav class="menu__nav">
+                    <a class="nav__link" href="../index.html">HOME</a>
+                    <a class="nav__link" href="../Table/table.html">TABLE</a>
+                    <a class="nav__link" href="about.html">ABOUT</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Content -->
+        <div class="container">
+            <div class="info">
+                <h2>Всем привет! Меня зовут Максим, мне 24 года. <br>Я автор этого сайта. </h2>
+                <div class="social">
+                    <a href="https://github.com/Maxklivenok1">My Github</a>
+                    <a href="https://www.instagram.com/agent_boi/">My Instagram</a>
+                </div>
+            </div>
+            <!-- Feedback form -->
+            <div class="form">
+                <form action="https://formspree.io/f/xayakkel" method="POST" class="form__body">
+                    <h1>Ваш feedback</h1>
+                    <div class="form__item">
+                        <label for="form__name" class="form__label">Имя:</label>
+                        <input id="form__name" type="text" name="name" class="form__input" placeholder="Ваше имя">
+                    </div>
+                    <div class=" form__item ">
+                        <label for="form__name " class="form__label ">Email:</label>
+                        <input id="form__name " type="email " name="_replyto " class="form__input " placeholder="Ваш E-mail">
+                    </div>
+                    <div class="form__item">
+                        <label for="form__message" class="form__label">Сообщение:</label>
+                        <textarea id="form__message" name="message" class="form__input" placeholder="Ваше сообщение"></textarea>
+                    </div>
+                    <button class="form__button" type="submit" value="send">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <p id="dateFolder"></p>
+                <p>Задание выполнил Кливенок Максим</p>
+                <p>Версия сайта 1.0</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
