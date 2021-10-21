@@ -35,18 +35,18 @@
     <main>
         <!-- Content -->
         <div class="container">
-            <div class="info">
+            <div class="info vcard">
                 <!-- Wrapping a description of a specific type into a container with a markup schema -->
                 <h2>Всем привет! Меня зовут <span itemscope itemtype="https://schema.org/Person">
                     <!-- Markup of individual properties with an indication of a specific schema property -->
-                    <span itemprop="givenName">Максим</span>, мне
-                    <span itemprop="birthDate">24 года.</span>
+                    <span class="fn given-name" itemprop="givenName">Максим</span>, мне
+                    <span class="bday" itemprop="birthDate">24 года.</span>
                     <span itemprop="jobTitle"><br>Я автор этого сайта.</span>
                     </span>
                 </h2>
                 <div class="social">
-                    <a href="https://github.com/Maxklivenok1">My Github</a>
-                    <a href="https://www.instagram.com/agent_boi/">My Instagram</a>
+                    <a class="url" href="https://github.com/Maxklivenok1">My Github</a>
+                    <a class="url" href="https://www.instagram.com/agent_boi/">My Instagram</a>
                 </div>
             </div>
             <!-- Feedback form -->
@@ -77,10 +77,10 @@
                 <time><p id="dateFolder"></p></time>
                 <p>Задание выполнил
                     <!-- Wrapping a description of a specific type into a container with a markup schema -->
-                    <span itemscope itemtype="https://schema.org/Person">
+                    <span class="vcard" itemscope itemtype="https://schema.org/Person">
                         <!-- Markup of individual properties with an indication of a specific schema property -->
-                        <span itemprop="familyName"> Кливенок</span>
-                    <span itemprop="givenName">Максим</span>
+                    <span class="fn family-name" itemprop="familyName"> Кливенок</span>
+                    <span class="fn given-name" itemprop="givenName">Максим</span>
                     </span>
                 </p>
                 <p>Версия сайта 1.0</p>

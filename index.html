@@ -34,27 +34,28 @@
     </header>
     <main>
         <!-- Content -->
-        <div class="intro">
+        <section class="intro">
             <div class="container">
                 <!-- Wrapping a description of a specific type into a container with a markup schema -->
-                <div itemscope itemtype="https://schema.org/Organization">
+                <div class="vcard" itemscope itemtype="https://schema.org/Organization">
                     <h1>
                         <!-- Markup of individual properties with an indication of a specific schema property -->
-                        <span itemprop="description"><b> Индивидуальный дизайн интерьеров жилых и коммерческих помещений</b></span>
+                        <span itemprop="description"><b> Индивидуальный <span class="category">дизайн</span> интерьеров жилых и коммерческих помещений</b>
+                        </span>
                     </h1>
                     <p>
                         <br>
                         <br>
                         <br>
                         <br>
-                        <span itemprop="description"><em>Мы предлагаем полный спектр услуг по комплексному дизайну интерьеров помещений: от аудита до ремонта под ключ по разработанноу дизайн-проекту. В студии <span itemprop="name" ><b>"MaxDesign"</b> </span>работают
+                        <span itemprop="description"><em>Мы предлагаем полный спектр услуг по комплексному дизайну интерьеров помещений: от аудита до ремонта под ключ по разработанноу дизайн-проекту. В студии <span class="fn org" itemprop="name" ><b>"MaxDesign"</b> </span>работают
                         только профессионалы своего дела: каждый специалист имеет не менее 3-х лет опыта. Мы готовы браться за трудные проекты без лишних слов, потому что уверены: качество разработанного интерьера удовлетворит вас на 100%. Мы продумываем
                         все мелочи, превращая ваши желания в реальность</em>
                         </span>
                     </p>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
     <!-- Footer -->
     <footer class="footer">
@@ -63,11 +64,10 @@
                 <time><p id="dateFolder"></p></time>
                 <p>Задание выполнил
                     <!-- Wrapping a description of a specific type into a container with a markup schema -->
-                    <span itemscope itemtype="https://schema.org/Person">
+                    <span class="vcard" itemscope itemtype="https://schema.org/Person">
                         <!-- Markup of individual properties with an indication of a specific schema property -->
-                        <span itemprop="familyName"> Кливенок</span>
-                    <span itemprop="givenName">Максим</span>
-
+                    <span class="fn family-name" itemprop="familyName"> Кливенок</span>
+                    <span class="fn given-name" itemprop="givenName">Максим</span>
                     </span>
                 </p>
                 <p>Версия сайта 1.0</p>
