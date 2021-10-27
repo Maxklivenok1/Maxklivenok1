@@ -115,6 +115,174 @@ main {
 }
 
 
+/* first table style */
+
+.table1 {
+    margin: 100px auto 100px;
+    text-align: center;
+    background: #ece9e0;
+    color: #656665;
+    border: 16px solid #ece9e0;
+    border-collapse: separate;
+    border-spacing: 5px;
+    border-radius: 20px;
+}
+
+.table1 th {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.table1 td {
+    background: #f5d7bf;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* second table style */
+
+.table2 {
+    margin: 100px auto 100px;
+    text-align: center;
+    background: #FFB573;
+    color: #656665;
+    border: 16px solid #FFB573;
+    border-collapse: separate;
+    border-spacing: 5px;
+    border-radius: 20px;
+}
+
+.table2 th {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.table2 td {
+    background: #5EC4CD;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* third table style */
+
+.table3 {
+    margin: 100px auto 100px;
+    text-align: center;
+    background: #67E667;
+    color: #656665;
+    border: 16px solid #67E667;
+    border-collapse: separate;
+    border-spacing: 5px;
+    border-radius: 20px;
+}
+
+.table3 th {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.table3 td {
+    background: #FF7373;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* Styling radio buttons */
+
+form {
+    margin: 0 auto;
+    text-align: center;
+}
+
+form p {
+    font-size: 30px;
+}
+
+form span {
+    margin: 0 20px;
+}
+
+form input {
+    width: 20px;
+    height: 20px;
+}
+
+
+/* Styling about page */
+
+.info {
+    margin: 60px auto;
+    text-align: center;
+}
+
+.info a {
+    color: black;
+    text-align: left;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.info a:hover {
+    text-decoration: underline;
+}
+
+.social {
+    margin-top: 40px;
+}
+
+
+/* Styling the feedback form  */
+
+.form {
+    max-width: 500px;
+    margin: 0 auto 100px;
+    color: #000;
+    padding: 20px 20px;
+    background: #5E6373;
+    border-radius: 10px;
+}
+
+.form__item {
+    margin-bottom: 20px;
+}
+
+.form__label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form__input {
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+textarea.form__input {
+    min-height: 60px;
+    padding: 10px;
+}
+
+.form__button {
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    border: solid 1px transparent;
+    border-radius: 9px;
+    color: #ffffff;
+    background-color: #9555af;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form__button:hover {
+    background-color: #9037b3;
+}
+
+
 /*Styling footer */
 
 .footer {
