@@ -15,22 +15,25 @@
 
 <body>
     <header class="header">
-        <!-- Container (width 1170px) -->
         <div class="container">
+            <!-- Container (width 1170px) -->
+
             <div class="header__inner">
                 <!-- Logo -->
                 <div class="logo">
-                    <img class="logo__icon" src="../images/design.png" alt="">
-                    <a class="logo__text" href="index.html">MaxDesign</a>
+                    <img class="logo__icon" src="../images/design.png" alt="Icon">
+                    <a class="logo__text" href="../index.html">MaxDesign</a>
                 </div>
                 <!-- Navigation menu -->
                 <nav class="nav">
                     <a class="nav__link" href="../index.html">HOME</a>
-                    <a class="nav__link" href="table.html">TABLE</a>
+                    <a class="nav__link" href="Table/table.html">TABLE</a>
                     <a class="nav__link" href="../About/about.html">ABOUT</a>
                 </nav>
+                <div class="burger">
+                    <span class="burger__item">Burger</span>
+                </div>
             </div>
-
         </div>
     </header>
     <main>
@@ -62,22 +65,34 @@
                     <td>4 комнаты</td>
                 </tr>
             </table>
+            <form class="style__form" action="#">
+                <h2>Стиль таблицы</h2>
+                <div class="radio__buttons">
+                    <div class="radio__btn__container">
+                        <input class="radio__btn" checked type="radio" name="style" value="table1">
+                        <span class="radio__btn__text">
+                        Стиль №1
+                        </span>
+                    </div>
+                    <div class="radio__btn__container">
+                        <input class="radio__btn" checked type="radio" name="style" value="table2">
+                        <span class="radio__btn__text">
+                        Стиль №2
+                     </span>
+                    </div>
+                    <div class="radio__btn__container">
+                        <input class="radio__btn" checked type="radio" name="style" value="table3">
+                        <span class="radio__btn__text">
+                        Стиль №3
+                     </span>
+                    </div>
+
+
+                </div>
+            </form>
         </div>
         <!-- form for changing the table style -->
-        <form class="style__form" action="#">
-            <div>
-                <p>Стиль таблицы</p>
-            </div>
-            <span>
-                 <input class="radio__btn" checked type="radio" name="style" value="table1">Стиль №1
-            </span>
-            <span>
-                <input class="radio__btn" type="radio" name="style" value="table2">Стиль №2
-            </span>
-            <span>
-                <input  class="radio__btn" type="radio" name="style" value="table3">Стиль №3
-            </span>
-        </form>
+
     </main>
     <footer class="footer">
         <div class="container">
