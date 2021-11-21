@@ -9,7 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../style.css">
+    <!-- Compiling directly to css file -->
+    <link rel="stylesheet" href="../styles.css">
+    <!-- compile in browser -->
+    <link rel="stylesheet/less" type="text/css" href="../styles.less" />
     <title>Home</title>
 </head>
 
@@ -75,13 +78,13 @@
                         </span>
                     </div>
                     <div class="radio__btn__container">
-                        <input class="radio__btn" checked type="radio" name="style" value="table2">
+                        <input class="radio__btn" type="radio" name="style" value="table2">
                         <span class="radio__btn__text">
                         Стиль №2
                      </span>
                     </div>
                     <div class="radio__btn__container">
-                        <input class="radio__btn" checked type="radio" name="style" value="table3">
+                        <input class="radio__btn" type="radio" name="style" value="table3">
                         <span class="radio__btn__text">
                         Стиль №3
                      </span>
@@ -111,6 +114,7 @@
         </div>
     </footer>
     <script src="../js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script>
 </body>
 
 </html>
