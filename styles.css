@@ -18,7 +18,7 @@ html,
 body {
   line-height: 1;
   font-size: 16px;
-  color: #000;
+  color: #000000;
   font-family: Montserrat;
 }
 html {
@@ -134,7 +134,7 @@ main {
   display: block;
   width: 30px;
   height: 3px;
-  background: #000;
+  background: #000000;
   font-size: 0px;
   position: relative;
   color: transparent;
@@ -147,7 +147,7 @@ main {
   position: absolute;
   left: 0;
   z-index: 1;
-  background-color: #000;
+  background-color: #000000;
 }
 .burger__item:before {
   top: -8px;
@@ -305,9 +305,9 @@ section {
 .table2 {
   margin: 0 auto;
   text-align: center;
-  background: #FFB573;
+  background: #ffb573;
   color: #656665;
-  border: 16px solid #FFB573;
+  border: 16px solid #ffb573;
   border-collapse: separate;
   border-spacing: 5px;
   border-radius: 20px;
@@ -325,9 +325,9 @@ section {
 .table3 {
   margin: 0 auto;
   text-align: center;
-  background: #67E667;
+  background: #67e667;
   color: #656665;
-  border: 16px solid #67E667;
+  border: 16px solid #67e667;
   border-collapse: separate;
   border-spacing: 5px;
   border-radius: 20px;
@@ -465,7 +465,7 @@ section {
   position: sticky;
   max-width: 500px;
   margin: 0 auto 100px;
-  color: #000;
+  color: #000000;
   padding: 20px 20px;
   background: #5E6373;
   border-radius: 10px;
